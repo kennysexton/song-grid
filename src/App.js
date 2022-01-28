@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+// CSS
 import './App.css';
+import './components/Cursor.css';
+
+// My Components
+import Cursor from './components/Cursor'
+
+let items=['Item 1','Item 2','Item 3','Item 4','Item 5'];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cursor/>
+      <a href="#">Hello</a>
     </div>
   );
 }
