@@ -1,4 +1,22 @@
 html, body {
-    cursor: none;
-    background-color: azure;
-  }
+  cursor: none;
+  background-color: azure;
+}
+
+/* Creating a responsive square trick - Bobby Kilpatrick  */
+/* https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
+.square {
+  position: relative;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
