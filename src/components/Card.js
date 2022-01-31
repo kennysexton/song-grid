@@ -1,9 +1,9 @@
 import React from 'react'
 
 function Card(props) {
+
     return (
-        <div className="rounded-md bg-slate-50 drop-shadow-md p-1">
-            <h1>{props.data}</h1>
+        <div className="rounded-md drop-shadow-md bg-cover bg-center p-1" style={{backgroundImage: `url(${props.data.download_url})`}}>
         </div>
     );
 }
