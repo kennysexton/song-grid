@@ -32,7 +32,7 @@ function App() {
     <div className="App h-screen w-screen">
       <Cursor />
       <div className='flex h-full w-full items-center'>
-        <div className='square w-11/12 md:w-7/12 mx-auto'>
+        <div className='square w-11/12 md:w-6/12 mx-auto'>
           <div className='content'>
             <div className="h-full grid gap-4 grid-cols-3 grid-rows-3">
               {imgList.map(img => (

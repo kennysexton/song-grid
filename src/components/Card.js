@@ -5,7 +5,7 @@ function Card(props) {
 
     return (
         <Tilt options={{ glare: true, "max-glare": 1 }}
-            className="tilt rounded-md bg-cover bg-center"
+            className="rounded-md bg-cover bg-center"
             data-tilt-full-page-listening
             style={{ backgroundImage: `url(${props.data.download_url})` }}>
         </Tilt>
