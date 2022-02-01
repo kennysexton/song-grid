@@ -1,8 +1,8 @@
 /* https://dev.to/andrewchmr/awesome-animated-cursor-with-react-hooks-5ec3 */
 /* Credit - Andriy Chemerynskiy */
 .cursor {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     border: 2px solid #fefefe;
     border-radius: 100%;
     position: fixed;
@@ -24,6 +24,6 @@
 }
 
 .cursor--clicked {
-    transform: translate(-50%, -50%) scale(0.9);
+    transform: translate(-50%, -50%) scale(0.8);
     background-color: #fefefe;
 }

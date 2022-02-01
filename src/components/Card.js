@@ -1,10 +1,14 @@
 import React from 'react'
+import Tilt from 'react-vanilla-tilt'
 
 function Card(props) {
 
     return (
-        <div className="rounded-md drop-shadow-md bg-cover bg-center p-1" style={{backgroundImage: `url(${props.data.download_url})`}}>
-        </div>
+        <Tilt options={{ glare: true, "max-glare": 1 }}
+            className="tilt rounded-md bg-cover bg-center"
+            data-tilt-full-page-listening
+            style={{ backgroundImage: `url(${props.data.download_url})` }}>
+        </Tilt>
     );
 }
 
